@@ -1,0 +1,42 @@
+{
+  "main": "www/main.html",
+
+  "name": "ChatCoding",
+
+  "nodejs":true,
+
+  "description": "Chat & Coding For Developers",
+
+  "version": "1.0.0",
+
+  "keywords": [ "CC", "ChatCoding" ],
+
+  "window": {
+
+    "title": "ChatCoding",
+
+    "icon": "www/content/icon.png",
+
+    "toolbar": false,
+
+    "frame": false,
+
+    "width": 365,
+
+    "height": 614,
+
+    "resizable": false,
+
+    "transparent": true,
+
+    "kiosk":false,
+
+    "show_in_taskbar": true
+
+  },
+  "webkit":{
+
+    "plugin":true
+
+  }
+}

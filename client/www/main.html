@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/sidebar.css"/>
+    <link rel="stylesheet" href="css/loading.css"/>
+</head>
+<body class="shadow">
+<svg id="svg">
+    <path id="path" class="s-path" fill="#343434" d="M0,0 350,0 a0,300 0 1,1 0,600 L0,600"></path>
+</svg>
+<section id="login-box">
+    <nav><span class="close"></span><span class="drag"></span><span class='feedback'></span></nav>
+    <div id="video">
+        <video autoplay loop src="content/cloud.webm"></video>
+    </div>
+    <h1>Cc</h1>
+    <label id="lab-email" for="email">邮箱</label><input id="email" type="email" autocomplete="off" />
+    <label id="lab-pwd" for="pwd">密码</label><input id="pwd" type="password"/>
+    <button id="login" class="button--effect-1">
+        <span class="morph-shape"
+              data-morph-active="M286,113c0,0-68.8-5-136-5c-78.2,0-137,5-137,5s5-15.802,5-50.5C18,33.999,13,12,13,12s59,5,137,5c85,0,136-5,136-5s-5,17.598-5,52C281,96.398,286,113,286,113z">
+            <svg width="100%" height="100%" viewBox="0 0 300 125" preserveAspectRatio="none">
+                <path d="M286,113C286,113,217.2,113,150,113C71.8,113,13,113,13,113C13,113,13,97.19800000000001,13,62.5C13,33.999,13,12,13,12C13,12,72,12,150,12C235,12,286,12,286,12C286,12,286,29.598,286,64C286,96.398,286,113,286,113C286,113,286,113,286,113"></path>
+            </svg>
+        </span>
+        <span id="lab-login">开始使用</span>
+    </button>
+</section>
+<section id="main-box" class="box">
+    <nav style="z-index: 1001;"><span class='feedback'></span><span class="drag"></span><span class="close"></span></nav>
+    <nav id="menu" class="menu">
+        <button class="menu__handle"><span>Menu</span></button>
+        <div class="menu__inner">
+            <ul>
+                <li class="index">主页</li>
+                <li class="email">邮件</li>
+                <li class="space">空间</li>
+                <li class="music">音乐</li>
+                <li class="setting">设置</li>
+            </ul>
+        </div>
+        <div class="morph-shape" data-morph-open="M300-10c0,0,295,164,295,410c0,232-295,410-295,410"
+             data-morph-close="M300-10C300-10,5,154,5,400c0,232,295,410,295,410">
+            <svg width="100%" height="100%" viewBox="0 0 600 800" preserveAspectRatio="none">
+                <path fill="none" d="M300,-10C300,-10,300,154,300,400C300,632,300,810,300,810"></path>
+            </svg>
+        </div>
+    </nav>
+    <div class="person">
+        <div>
+            <ul>
+                <li class="active"><img src="img/1.png" alt=""/></li>
+                <li><img src="img/2.png" alt=""/></li>
+                <li><img src="img/3.png" alt=""/></li>
+                <li><img src="img/4.png" alt=""/></li>
+                <li><img src="img/5.png" alt=""/></li>
+                <li><img src="img/6.png" alt=""/></li>
+                <li><img src="img/7.png" alt=""/></li>
+                <li><img src="img/8.png" alt=""/></li>
+                <li><img src="img/9.png" alt=""/></li>
+                <li><img src="img/2.png" alt=""/></li>
+                <li><img src="img/3.png" alt=""/></li>
+                <div></div>
+            </ul>
+        </div>
+
+    </div>
+    <div class="container">
+        <section class="index-box">
+            <div class="chat">
+                <div class="chat-content">
+                    <div class="spinner">
+                        <div class="spinner-container container1">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <div class="circle3"></div>
+                            <div class="circle4"></div>
+                        </div>
+                        <div class="spinner-container container2">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <div class="circle3"></div>
+                            <div class="circle4"></div>
+                        </div>
+                        <div class="spinner-container container3">
+                            <div class="circle1"></div>
+                            <div class="circle2"></div>
+                            <div class="circle3"></div>
+                            <div class="circle4"></div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="you">你好 我们来聊聊吧</li>
+                        <li class="me">好 那我们来聊聊吧</li>
+                        <li class="you">好 那我们来聊聊吧</li>
+                        <li class="me">好 那我们来聊聊吧</li>
+                        <li class="you">好 那我们来聊聊吧</li>
+                        <li class="me">好 那我们来聊聊吧</li>
+                        <li class="you">好 那我们来聊聊吧</li>
+                        <li class="me">好 那我们来聊聊吧</li>
+                        <li class="you">好 那我们来聊聊吧</li>
+                        <li id="current" class="me">好 那我们来聊聊吧</li>
+                    </ul>
+                </div>
+                <div id="editor" contenteditable="true"></div>
+            </div>
+        </section>
+        <section class="email-box">这里什么也没有(～￣▽￣)～(～￣▽￣)～</section>
+        <section class="space-box">这里也没有(～￣▽￣)～(～￣▽￣)～</section>
+        <section class="music-box">这里还是没有(～￣▽￣)～(～￣▽￣)～</section>
+        <section class="setting-box">这里没有(～￣▽￣)～(～￣▽￣)～</section>
+
+    </div>
+</section>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/velocity.js"></script>
+<script src="js/velocity.ui.js"></script>
+<script src="js/snap.svg-min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/socket.io.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
