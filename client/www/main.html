@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/sidebar.css"/>
     <link rel="stylesheet" href="css/loading.css"/>
@@ -11,8 +12,8 @@
 <svg id="svg">
     <path id="path" class="s-path" fill="#343434" d="M0,0 350,0 a0,300 0 1,1 0,600 L0,600"></path>
 </svg>
-<section id="login-box">
-    <nav><span class="close"></span><span class="drag"></span><span class='feedback'></span></nav>
+<div id="box_login" class="login-box">
+    <nav class="nav"><span class="close"></span><span class="drag"></span><span class='feedback'></span></nav>
     <div id="video">
         <video autoplay loop src="content/cloud.webm"></video>
     </div>
@@ -28,8 +29,8 @@
         </span>
         <span id="lab-login">开始使用</span>
     </button>
-</section>
-<section id="main-box" class="box">
+</div>
+<div id="main-box" class="box">
     <nav style="z-index: 1001;"><span class='feedback'></span><span class="drag"></span><span class="close"></span></nav>
     <nav id="menu" class="menu">
         <button class="menu__handle"><span>Menu</span></button>
@@ -114,7 +115,8 @@
         <section class="setting-box">这里没有(～￣▽￣)～(～￣▽￣)～</section>
 
     </div>
-</section>
+</div>
+
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/velocity.js"></script>
 <script src="js/velocity.ui.js"></script>

@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/client/www/js/main.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/client/www/js/sqlite.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server/CCServer.js" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
